@@ -1,5 +1,15 @@
 function reverseString(text) {
-  // your code here
+  var splitString = text.split("");
+   
+   
+    var reverseArray = splitString.reverse();
+ 
+    
+    var joinArray = reverseArray.join(""); 
+    
+   
+    return joinArray;
+
 }
 
 console.log(reverseString('Hello World and Coders')); // sredoC dna dlroW olleH
