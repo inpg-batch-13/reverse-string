@@ -1,5 +1,13 @@
 function reverseString(text) {
   // your code here
+
+  var result = ''
+
+  for (var i = text.length - 1; i >= 0; i--) {
+    result += text[i]
+  }
+
+  return result
 }
 
 console.log(reverseString('Hello World and Coders')); // sredoC dna dlroW olleH
